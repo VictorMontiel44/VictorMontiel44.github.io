@@ -1,0 +1,5 @@
+title: Mi Página Web
+description: Esta es una página web personal creada con GitHub Pages y Jekyll.
+baseurl: ""
+url: "https://tu-usuario.github.io"
+theme: minima
