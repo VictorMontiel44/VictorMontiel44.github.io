@@ -39,6 +39,12 @@ img {
     width: 100%;
     max-width: 300px;
     height: auto;
+    .img-perfil {
+    float: left;  /* Mueve la imagen a la izquierda */
+    margin-right: 20px; /* Espacio a la derecha para separación */
+    width: 200px; /* Ajusta el tamaño si es necesario */
+}
+
 }
 
 footer {
