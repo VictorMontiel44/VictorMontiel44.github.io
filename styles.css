@@ -49,15 +49,45 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+
+    #curriculo {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #333;
 }
 
-#curriculo {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #f4f4f4;
-    border-radius: 10px;
+h2 {
+    color: #222;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
 }
-h2, h3 {
-    color: #333;
+
+h3 {
+    color: #444;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
 }
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "✔ ";
+    color: #007bff;
+    font-weight: bold;
+}
+
+p, ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
