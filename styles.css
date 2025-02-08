@@ -50,3 +50,14 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+#curriculo {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+h2, h3 {
+    color: #333;
+}
