@@ -82,6 +82,31 @@ img {
     height: auto;
 }
 
+.imagenes-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre imágenes */
+}
+
+.imagenes-container img {
+    max-width: 45%; /* Ajustar tamaño de imágenes */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.boton-contacto {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton-contacto:hover {
+    background: #0056b3;
+}
+
 footer {
     text-align: center;
     background-color: #333;
